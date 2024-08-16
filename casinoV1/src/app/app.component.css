@@ -5,6 +5,14 @@
     height: 100vh;
     background: #222;
     position: fixed;
+    overflow-y: scroll;
+}
+
+.logo {
+    margin-top: 20px;
+    left: 50%;
+    transform: translateX(25%);
+    height: 120px;
 }
 
 .navbar .link-geral {
@@ -77,4 +85,10 @@ a img {
     margin-left: 20px;
     justify-content: baseline;
     align-content: baseline;
+}
+
+.text {
+    color: white;
+    margin: 20px;
+    font-size: 1.2rem;
 }
