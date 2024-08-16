@@ -1,0 +1,44 @@
+<div class="container1">
+    <div class="box">
+        <div class="title">
+            <h1>VAMOS JOGAR?</h1>
+            <p>Estamos te esperando para mais uma rodada!</p>
+        </div>
+        <hr>
+        <div class="areas">
+
+            <div class="img-pro">
+                <img src="https://i.imgur.com/sg33vV9.png" alt="" srcset="">
+            </div>
+            <div class="inputs">
+                <h1>Cadastrar</h1>
+                <!-- UsuARIO-->
+                <i class="fa-regular fa-user"></i>
+                <input type="text" placeholder="Nome do usuario">
+                <!-- UsuARIO-->
+                <!-- LOGIN -->
+                <i class="fa-regular fa-envelope"></i>
+                <input type="text" placeholder="E-mail">
+                <!-- LOGIN -->
+                <div class="password-container">
+                    <i class="fa-regular fa-lock"></i>
+                    <input #passwordInput class="senha" type="password" placeholder="Password">
+                    <i #eyeIcon class="fa-regular senha1 fa-eye" (click)="togglePasswordVisibility()"></i>
+                    <i #eyeIconSlash class="fa-regular senha1 fa-eye-slash" style="display: none;" (click)="togglePasswordVisibility()"></i>
+                </div>
+
+                <!-- whats -->
+                <i class="fa-brands fa-whatsapp"></i>
+                <input type="tel" name="" id="" placeholder="Whatsapp">
+                <!-- whats -->
+                <!-- SUBMIT -->
+                <button type="submit">Criar conta</button>
+                <!-- SUBMIT -->
+                <p class="politica">Ao clicar no botão Criar conta, você aceita nossos <a href="">termos de uso</a> e
+                    <a href="">política de privacidade.</a>
+                </p>
+
+            </div>
+        </div>
+    </div>
+</div>

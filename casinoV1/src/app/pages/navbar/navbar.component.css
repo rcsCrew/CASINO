@@ -1,0 +1,140 @@
+.navbar1 {
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    height: 100vh;
+    background: #141414;
+    position: fixed;
+    overflow-y: scroll;
+}
+
+.logo {
+    margin-top: 20px;
+    left: 50%;
+    transform: translateX(25%);
+    height: 120px;
+}
+
+.navbar1 .link-geral {
+    display: flex;
+    background: #333;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.navbar1 a svg {
+    width: 40px;
+}
+
+.afiliado {
+    display: flex;
+    background: green;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.afiliado svg {
+    background: red;
+}
+
+.title {
+    margin-top: 20px;
+    color: white;
+    font-size: 1.7rem;
+    background: red;
+    width: 2px;
+    margin-left: 20px;
+}
+
+.title p {
+    margin-left: 10px;
+}
+
+a img {
+    width: 40px;
+    height: 40px;
+}
+
+.populares {
+    display: flex;
+    background: #333;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.populares p {
+    margin-top: 5px;
+    margin-left: 20px;
+    justify-content: baseline;
+    align-content: baseline;
+}
+
+.text {
+    color: white;
+    margin: 20px;
+    font-size: 1.2rem;
+}
+
+.login {
+    width: 100%;
+    height: 10vh;
+    background: #141414;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* Alinha verticalmente ao centro */
+}
+
+.login .entrar,
+.login .registrar {
+    display: flex;
+    align-items: center;
+    /* Alinha o conteúdo internamente ao centro */
+    margin-left: 10px;
+    margin-right: 10px;
+    /* Espaço entre os dois elementos */
+    font-size: 1.2rem;
+    /* Ajusta o tamanho da fonte, se necessário */
+    line-height: 1;
+    /* Garante que a linha de texto seja compacta */
+}
+
+.login .entrar {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.login .registrar {
+    padding: 10px 20px;
+    background: red;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    margin-right: 13%;
+}
+
+@media screen and (max-width: 1600px) {
+    .login .registrar {
+        margin-right: 7%;
+    }
+}

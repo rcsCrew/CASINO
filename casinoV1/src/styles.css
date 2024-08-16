@@ -5,11 +5,21 @@
     padding: 0;
     font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     ;
+    transition: transform 0.6s ease;
+    box-sizing: border-box;
+}
+
+hr {
+    opacity: 1;
+    border-top: 2px solid;
+    margin-right: 20%;
 }
 
 body {
+    overflow-y: scroll;
+    overflow-x: hidden;
     scrollbar-width: thin;
     /* "auto" or "thin" */
-    scrollbar-color: rgb(0, 0, 0) rgb(36, 36, 36);
+    scrollbar-color: #000000 #141414;
     /* scroll thumb and track */
 }
