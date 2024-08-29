@@ -14,6 +14,7 @@ import {
 import { LoginComponent } from './pages/login/login.component';
 import { NavbarComponent } from './pages/navbar/navbar.component';
 import { RegistrarComponent } from './pages/registrar/registrar.component';
+import { AovivoComponent } from './pages/aovivo/aovivo.component';
 
 
 registerSwiperElements();
@@ -26,6 +27,7 @@ registerSwiperElements();
     LoginComponent,
     NavbarComponent,
     RegistrarComponent,
+    AovivoComponent,
 
   ],
   imports: [

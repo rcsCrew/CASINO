@@ -1,0 +1,61 @@
+.title {
+    display: flex;
+    width: 100%;
+    margin-bottom: -50px;
+}
+
+.title svg {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.title .seta {
+    width: 40px;
+    margin-top: -40px;
+}
+
+.title .right {
+    width: 70%;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.jogos1 .grid-item {
+    padding: 10px;
+    border-radius: 18px;
+    overflow: hidden;
+    text-align: center;
+    font-weight: bold;
+}
+
+.jogos1 .grid-item img {
+    width: 100%;
+    height: auto;
+    /* Mantém a proporção da imagem */
+    border-radius: 18px;
+    /* Adiciona border-radius às imagens */
+}
+
+.jogos1 .col {
+    transform-style: preserve-3d;
+    /* Mantém o efeito 3D */
+    transition: transform 0.6s ease;
+    /* Transição suave */
+}
+
+.jogos1 {
+    perspective: 1000px;
+    /* Adiciona perspectiva ao contêiner pai */
+}
+
+.jogos1 .grid-item img {
+    background-image: linear-gradient(35deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.07) 51.5%, rgba(255, 255, 255, 0.15) 54%, rgba(255, 255, 255, 0.15) 100%);
+}
+
+.jogos1 .col:hover {
+    perspective-origin: top;
+    transform: perspective(250px) translate3d(0px, 5px, 0px) rotateX(0deg);
+    /* Inclina no eixo X e aumenta o tamanho */
+}

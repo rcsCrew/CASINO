@@ -35,7 +35,16 @@ body {
     width: 82%;
 }
 
-swiper-container {
+.lin {
+    margin-top: 20px;
+    width: 103%;
+    transform: translate(-4%);
+    background: rgba(35, 35, 35, 1);
+    height: 3px;
+    margin-bottom: 20px;
+}
+
+.swiper {
     border-radius: 22px;
     margin-left: 40px;
     margin-top: 20px;
@@ -44,7 +53,7 @@ swiper-container {
     margin-bottom: 20px;
 }
 
-swiper-slide {
+.swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
@@ -54,7 +63,7 @@ swiper-slide {
     border-radius: 22px;
 }
 
-swiper-slide img {
+.swiper-slide img {
     border-radius: 21px;
     display: block;
     width: 100%;
